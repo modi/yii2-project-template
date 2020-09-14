@@ -1,4 +1,4 @@
-version: '2'
+version: '3.7'
 networks:
   traefik_default:
     external: true
@@ -9,7 +9,13 @@ services:
   mysql:
     labels:
       - traefik.enable=false
-  php:
+  fpm:
+    labels:
+      - traefik.enable=false
+  cron:
+    labels:
+      - traefik.enable=false
+  cli:
     labels:
       - traefik.enable=false
   nginx:
