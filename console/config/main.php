@@ -3,7 +3,6 @@
 $config = [
     'id' => 'app-console',
     'basePath' => XII_ROOT.'/console',
-    'runtimePath' => XII_ROOT.'/runtime/console',
     'components' => [
     ],
     'controllerNamespace' => 'console\controllers',

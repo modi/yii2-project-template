@@ -6,7 +6,6 @@ use yii\web\Response;
 $config = [
     'id' => 'app-backend',
     'basePath' => XII_ROOT.'/backend',
-    'runtimePath' => XII_ROOT.'/runtime/backend',
     'bootstrap' => [
         [
             'class' => ContentNegotiator::class,

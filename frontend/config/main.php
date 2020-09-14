@@ -7,7 +7,6 @@ use yii\web\Response;
 $config = [
     'id' => 'app-frontend',
     'basePath' => XII_ROOT.'/frontend',
-    'runtimePath' => XII_ROOT.'/runtime/frontend',
     'bootstrap' => [
         [
             'class' => ContentNegotiator::class,
